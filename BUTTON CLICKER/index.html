@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div class="Header">
+        <div class="Dojonary">Dojonary</div>
+        <div class="Search">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="Login">
+            <button class="btn" onclick="logout(this)">Login</button>
+        </div>
+    </div>
+
+    <!-- Body Section, Top Row -->
+    <div class="Body">
+        <div class="row">
+            <div class="Ninja">
+                <div class="left">
+                    <h2>ninja</h2>
+                    <h5 class="noun">noun</h5>
+                    <h5>Plural: ninjas</h5>
+                    <button class="ninja_btn" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <p>A practitioner skilled in the <br> Japanese art of ninjutsu</p>
+            </div>
+            <div class="Add_Definition">
+                <h3>Dojonary is <br> defined by YOU</h3>
+                <button class="Add_def_btn" onclick="removeButton(this)">Add Definition</button>
+            </div>
+        </div>
+
+        <!-- Body Section, Bottom Row -->
+        <div class="Ninja">
+            <div class="left">
+                <h2>ninja</h2>
+                <h5 class="noun">noun</h5>
+                <h5>Plural: ninjas</h5>
+                <button class="ninja_btn" onclick="alert('Ninja was liked')">37 likes</button>
+            </div>
+            <p>A programmer who breaks <br> down problems with zen-like <br> focus</p>
+        </div>
+    </div>
+    
+    <script src="./clicker.js"></script>
+</body>
+<!-- End of Page -->
+
+</html>

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Format Header */
+.Header {
+    background-color: rgb(182, 182, 182);
+    height: 50px;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Dojonary {
+    margin-left: 20px;
+}
+.Login {
+    margin-right: 20px;
+}
+.btn {
+    background-color: rgb(5, 125, 217);
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: aliceblue;
+}
+
+/* Format Body */
+.Body {
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* Format Body, Top & Bottom Row */
+.row {
+    display: flex;
+    vertical-align: top;
+    justify-content: space-between;
+}
+.Ninja {
+    display: flex;
+    width: 325px;
+    align-items: center;
+    border: 2px solid black;
+    margin: 20px;
+}
+p {
+    margin-left: 10px;
+}
+.Add_Definition {
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+.Add_def_btn {
+    background-color: rgb(108, 188, 120);
+    padding: 5px 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.ninja_btn {
+    background-color: rgb(255, 217, 0);
+    padding: 3px 6px;
+    margin: 15px;
+}
+h5 {
+    margin: 15px;
+    font-weight: normal;
+}
+h2 {
+    margin: 15px;
+    padding-left: 5px;
+}
+.noun {
+    padding-left: 15px;
+}
+h3 {
+    margin: 10px 5px;
+}
